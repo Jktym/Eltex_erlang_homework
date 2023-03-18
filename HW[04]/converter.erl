@@ -57,3 +57,4 @@ map_to_rub(_Error) ->
   io:format("Can't convert to Rub, ~p~n", [_Error]),
   {error, badarg}.
 
+%Mult = fun(X, Y) ->X*Y end.
